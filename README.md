@@ -22,13 +22,11 @@ Critical Escalations: 5
 ## Attack Chain I Uncovered
 
  Phishing Email --- Malicious ZIP Opened 
- --> PowerView.ps1 (AD Recon) 
- --> Credential Harvesting 
- --> Financial Server Accessed 
- --> Reverse Shell Established 
- -->Evidence Deleted
-
----
+1.PowerView.ps1 (AD Recon) 
+2.Credential Harvesting 
+3.Financial Server Accessed 
+4.Reverse Shell Established 
+5.Evidence Deleted
 
 ## 📊 Alerts Summary
 | Alert | Finding | Result |
