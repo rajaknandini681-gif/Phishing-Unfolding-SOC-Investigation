@@ -21,12 +21,13 @@ Critical Escalations: 5
 
 ## Attack Chain I Uncovered
 
- Phishing Email --- Malicious ZIP Opened 
-1.PowerView.ps1 (AD Recon) 
-2.Credential Harvesting 
-3.Financial Server Accessed 
-4.Reverse Shell Established 
-5.Evidence Deleted
+1. Phishing email delivered to michael.ascot
+2. Malicious ZIP attachment executed
+3. PowerView.ps1 launched for AD reconnaissance
+4. Credentials harvested from the host
+5. Financial network share accessed
+6. Reverse shell established to ngrok C2
+7. Attacker removed evidence to hinder investigation
 
 ## 📊 Alerts Summary
 | Alert | Finding | Result |
